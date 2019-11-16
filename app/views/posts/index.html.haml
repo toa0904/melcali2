@@ -9,7 +9,7 @@
       = icon 'fab', 'facebook-square'
       Facebookで登録する
     =link_to "", class: "contents__sns--google" do
-      %img{ src: "https://www.mercari.com/jp/assets/img/common/common/google.svg" }
+      = image_tag 'https://www.mercari.com/jp/assets/img/common/common/google.svg'
       Googleで登録する
   .contents__form
     %input.contents__form--email{name: "email", placeholder: "メールアドレス", type: "email", value: ""}/
