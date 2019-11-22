@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   get   'posts/edit6' =>  'posts#edit6'
   get   'posts/logout' => 'posts#logout'
   get   'posts/box-title' => 'posts#box-title'
+  get   "posts/info" => "posts#info"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
